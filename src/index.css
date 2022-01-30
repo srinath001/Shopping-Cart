@@ -1,3 +1,4 @@
+
 .box{
     display: flex;
     justify-content: space-between;
@@ -35,3 +36,4 @@
 .item-desc{
     align-self:center;
 }
+
