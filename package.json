@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
 
-  "homepage":"https://srinath001.github.io",
+  "homepage": "https://srinath001.github.io/my-shopping-cart",
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -b master -d build",
 
   "dependencies": {
     "react": "^16.6.3",
